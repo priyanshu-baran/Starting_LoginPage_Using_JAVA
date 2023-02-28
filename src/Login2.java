@@ -136,7 +136,7 @@ public class Login2 extends JFrame implements ActionListener,MouseListener{
             new Login1().setVisible(true);
         }else{
             setVisible(false);
-            new Test().setVisible(true);
+            new Loading().setVisible(true);
         }
     }
 }
