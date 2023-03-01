@@ -7,7 +7,7 @@ public class MainPage extends JFrame implements ActionListener{
     JButton b1,b2;
     JLabel l1;
     public MainPage(){
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Pics/#1.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Assets/#1.png"));
         Image i2 = i1.getImage().getScaledInstance(1600, 1000, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel label = new JLabel(i3);

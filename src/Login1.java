@@ -12,7 +12,7 @@ public class Login1 extends JFrame implements ActionListener,MouseListener{
     public Login1(){
         p=new JPanel();
         p.setBounds(750,200,450,500);
-        ImageIcon i7=new ImageIcon(ClassLoader.getSystemResource("Pics/#2.png"));
+        ImageIcon i7=new ImageIcon(ClassLoader.getSystemResource("Assets/#2.png"));
         Image i8=i7.getImage().getScaledInstance(350,200,Image.SCALE_DEFAULT);
         ImageIcon i9=new ImageIcon(i8);
         label3=new JLabel(i9);
@@ -43,7 +43,7 @@ public class Login1 extends JFrame implements ActionListener,MouseListener{
         l2.setForeground(Color.WHITE);
         l2.setBounds(60,300,200,20);
         p.add(l2);
-        ImageIcon i4=new ImageIcon(ClassLoader.getSystemResource("Pics/#3.jpg"));
+        ImageIcon i4=new ImageIcon(ClassLoader.getSystemResource("Assets/#3.jpg"));
         Image i5=i4.getImage().getScaledInstance(40,40,Image.SCALE_DEFAULT);
         ImageIcon i6=new ImageIcon(i5);
         label2=new JLabel(i6);
@@ -85,7 +85,7 @@ public class Login1 extends JFrame implements ActionListener,MouseListener{
         b3.addMouseListener(this);
         b3.addActionListener(this);
         p.add(b3);
-        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("Pics/#7.jpg"));
+        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("Assets/#7.jpg"));
         Image i2=i1.getImage().getScaledInstance(1800,1000,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         label1=new JLabel(i3);

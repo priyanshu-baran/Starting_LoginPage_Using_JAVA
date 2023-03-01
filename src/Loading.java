@@ -9,7 +9,7 @@ public class Loading extends JFrame{
         Runnable task = () -> System.exit(0);
         scheduler.schedule(task,3000,TimeUnit.MILLISECONDS);
         scheduler.shutdown();
-        URL url = Loading.class.getResource("Pics/#11.gif");
+        URL url = Loading.class.getResource("Assets/#8.gif");
         assert url!=null;
         ImageIcon icon = new ImageIcon(url);
         Image i2=icon.getImage().getScaledInstance(400,220,Image.SCALE_DEFAULT);
